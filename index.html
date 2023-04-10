@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="documents-form">
+        <label>
+            <input type="checkbox" name="passport" id="passport-input">
+            Дійсний закордонний паспорт
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="passport-scans" id="passport-scans-input">
+            Cкан-копії всіх сторінок закордонного паспорта
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="ukrainian-passport" id="ukrainian-passport-input">
+            Український паспорт з усіма заповненими сторінками
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="marriage-certificate" id="marriage-certificate-input">
+            Свідоцтво про шлюб чи розлучення
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="children-birth-certificates" id="children-birth-certificates-input">
+            Свідоцтва про народження дітей при наявності
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="bank-statement" id="bank-statement-input">
+            Виписка з банківського рахунку за останні пів року
+        </label>
+        <br>
+        <button type="submit">Перевірити документи</button>
+    </form>
+    <p id="result"></p>
+
+   <script src="./script.js"></script> 
+</body>
+</html>

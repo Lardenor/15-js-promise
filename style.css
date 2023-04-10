@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Set font family and color for body text */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Center form element and add margin */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Style label text */
+label {
+    font-weight: bold;
+}
+
+/* Add some space between input elements */
+label+label {
+    margin-top: 10px;
+}
+
+/* Add some padding to input elements */
+input[type="checkbox"] {
+    padding: 5px;
+}
+
+/* Style submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Style result paragraph */
+#result {
+    margin: 20px;
+    font-weight: bold;
+}
+ul{
+
+    padding: 0;
+}
+li{
+    padding: 10px;
+}
+.not{
+color: red;
+}
+.yes{
+color: green;
+}
